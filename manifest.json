@@ -1,0 +1,15 @@
+{
+		"manifest_version": 2,
+		"name": "Stockcharts Favouriter",
+		"description": "add symbols to a list",
+		"version": "1.0",
+		"icons": {},
+
+		"content_scripts": [
+				{
+						"matches":["https://stockcharts.com/*"],
+						"js":["content.js"]
+				}
+		]
+
+}
